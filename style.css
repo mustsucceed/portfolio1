@@ -1,0 +1,352 @@
+body {
+  margin: 0px;
+  /* background-color: black; */
+
+}
+.alpha {
+  display: flex;
+  flex-direction: column;
+}
+.homepage {
+  background-image: url("images/giphy.batunfazed.webp");
+  background-size: cover;
+  padding-bottom: 120px;
+}
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+li a{
+  color: white;
+}
+.navbar {
+  display: flex;
+  margin-top: 20px;
+
+}
+.navcov {
+  width: 500px;
+  display: flex;
+  justify-content: space-between;
+  margin-left: 500px;
+  font-size: 20px;
+}
+.navcov a {
+  text-decoration: none;
+}
+.logo {
+  padding-left: 80px;
+}
+.logo a {
+  text-decoration: none;
+  color: orangered;
+  font-size: 40px;
+  font-weight: bold;
+  font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.home a:hover {
+  color: grey;
+  text-shadow: 4px 2px 5px rgb(139, 133, 133);
+  font-weight: bold;
+}
+
+.services a:hover {
+  color: grey;
+  text-shadow: 4px 2px 5px rgb(139, 133, 133);
+  font-weight: bold;
+}
+
+.skills a:hover {
+  color: grey;
+  text-shadow: 4px 2px 5px rgb(139, 133, 133);
+  font-weight: bold;
+}
+
+.about a:hover {
+  color: grey;
+  text-shadow: 4px 2px 5px rgb(139, 133, 133);
+  font-weight: bold;
+}
+
+.contact a:hover {
+  color: grey;
+  text-shadow: 4px 2px 5px rgb(139, 133, 133);
+  font-weight: bold;
+}
+
+
+.dp {
+  width: 300px;
+  border-radius: 50%;
+}
+.main {
+ display: flex;
+ margin: 30px 0 0 30px;
+}
+
+
+.texts {
+ color: white;
+ width: 500px;
+ margin: 50px 0 0 40px;
+ 
+}
+h1 {
+  font-size: 30px;
+  font-weight: bold;
+}
+h2 {
+  font-size: 25px;
+  font-weight: bold;
+}
+
+
+.name {
+  color: grey;
+  font-size: 35px;
+  font-weight: bold;
+  text-shadow: 1px 1px 4px black;
+}
+.discipline {
+  color: grey;
+  font-size: 30px;
+  font-weight: bold;
+  text-shadow: 1px 1px 4px black;
+}
+.socials {
+  font-size: 30px;
+}
+.fa-instagram {
+  margin-right: 10px;
+  color: grey;
+}
+.fa-github {
+  color: grey;
+}
+.abeg {
+  color: grey;
+  background-color: black;
+  color: grey;
+  padding: 10px 30px;
+  border-radius: 40px;
+  margin-top: 20px;
+}
+#services {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  background-color: black;
+
+}
+#servicetittle {
+  text-align: center;
+  padding-top: 30px;
+  color: white;
+  font-size: 40px;
+}
+.servicecontent {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  padding-bottom: 90px;
+}
+.servicecontentinner {
+  display: flex;
+  text-align: center;
+  width: 900px;
+}
+.service1 {
+  text-align: center;
+  width: 900px;
+  background-color: rgba(255, 255, 255, 0.137);
+  padding: 50px 30px;
+  border-radius: 20px;
+
+}
+
+.service1readmore {
+  padding: 5px 15px;
+  color: white;
+  background-color: orangered;
+  border-radius: 15px;
+  border: 0px;
+}
+
+.service2readmore {
+  padding: 5px 15px;
+  color: white;
+  background-color: orangered;
+  border-radius: 15px;
+  border: 0px;
+}
+
+.service3readmore {
+  padding: 5px 15px;
+  color: white;
+  background-color: orangered;
+  border-radius: 15px;
+  border: 0px;
+}
+
+.service2 {
+  text-align: center;
+  width: 900px;
+  padding: 0px 10px;
+  background-color: rgba(255, 255, 255, 0.137);
+  padding: 50px 30px;
+  margin: 0px 20px;
+  border-radius: 20px;
+
+}
+.service1 p {
+  color: gray;
+}
+.service2 p {
+  color: gray;
+}
+.service3 p {
+  color: gray;
+}
+h4 {
+  color: white;
+  font-size: 20px;
+  font-weight: bold;
+}
+.service3 {
+  text-align: center;
+  width: 900px;
+  background-color: rgba(255, 255, 255, 0.137);
+  padding: 50px 30px;
+  border-radius: 20px;
+}
+
+
+.fa-user {
+  font-size: 30px;
+  color: orangered;
+}
+.fa-code {
+  font-size: 30px;
+  color: orangered;
+}
+.fa-palette {
+  font-size: 30px;
+  color: orangered;
+}
+
+
+#skills {
+  background-image: url("images/giphy.batman.webp");
+  height: 650px;
+  background-size: contain;
+}
+#skills h1 {
+  color: orangered;
+  text-align: center;
+  font-size: 60px;
+  text-shadow: 0px 1px 3px rgb(0, 0, 0);
+}
+.skillsbrohas {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+.skillsbrohas p {
+  font-size: 20px;
+  color: orangered;
+  height: 60px;
+}
+.skill1, .skill2, .skill3, .skill4 {
+  background-color: black;
+  margin-top: 10px;
+  width: 300px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 30px;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+.skill2, .skill3, .skill4 {
+  margin-top: 20px;
+
+}
+.skill3, .skill4, p{
+  align-items: center;
+
+}
+#about {
+  background-color: black;
+}
+.aboutcover {
+  display: flex;
+  padding: 30px 30px;
+  
+}
+.aboutimg {
+  width: 350px;
+  border-radius: 20px;
+}
+.aboutus {
+  display: block;
+  width: 500px;
+  height: 300px;
+  background-color: black;
+  margin-left: 40px;
+  padding-left: 10px;
+  margin-top: auto;
+  margin-bottom: auto;
+}
+.aboutus h1 {
+  font-size: 40px;
+  color: white;
+  margin-bottom: 0px;
+}
+.aboutus h6 {
+  color: orangered;
+  font-size: 22px;
+  margin: 0px;
+  margin-top: 10px;
+}
+.aboutp {
+  width: 500px;
+  margin-bottom: 0px;
+  color: grey;
+}
+.letstalk {
+  margin-top: 50px;
+  color: white;
+  border-radius: 30px;
+  padding: 10px 15px;
+  border: 0px;
+  background-color: orangered;
+  border: 1px solid grey;
+}
+#contact {
+  /* width: 500px;
+  height: 400px; */
+  background-color: rgb(0, 45, 179);
+  position: fixed;
+}
+
+/* @media only screen and (max-width: 400px) {
+  .portfolio {
+    width: 90%;
+    height: 90%;
+  }
+}
+@media only screen and (max-width: 800px) {
+  .portfolio {
+    width: 90%;
+    height: 90%;
+  }
+} */
+/* @media only screen and (max-width: 800px) {
+  .portfolio {
+    width: 90%;
+    margin: 0 auto;
+  }
+} */
